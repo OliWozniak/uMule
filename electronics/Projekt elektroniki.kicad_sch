@@ -1,0 +1,222 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fba27fc7-bf2f-43f3-b631-7f15fcce342e")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "Wyjścia zasilania:\n- 2x13.5V\n- 4x5V - Czujniki IR\n- 2x5V - Czujniki odległości\n- 4x5V - mikrokontrolery\n- 2X5V - RS485\n- 1x5V - Servo\n- 8x5V - ITR (można zrobić bardziej kompaktowo)(+wejścia sygnału)\n"
+		(exclude_from_sim no)
+		(at 86.36 44.45 0)
+		(size 39.37 20.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3abae3fc-aed0-4298-885d-b3017a27fab7")
+	)
+	(text_box "Wymagane mikrokontrolery:\n- Układ odczytu otocznia (UDAR)\n- Układ sterowania silnikami i zczytywania ich prędkości (Ruch + Przemieszczenie)\n- Układ do odczytu położenia nadajnika względem robota\n- Główny układ sterujący\n\n"
+		(exclude_from_sim no)
+		(at 86.36 13.97 0)
+		(size 59.69 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a44f7786-9ad3-42d6-848d-827dd73ac47d")
+	)
+	(text_box "Co musi mieć układ?\n- Zasilanie (5V) + Wyprowadzenia 13.5V (Akumulator)\n- Wejścia ESP32 (Adaptery?)\n- Wyprowadzenia sterowania dla SERW (Rezystory podciągające, Bramki NOT?)\n- Wejścia enkodera absolutnego (Komparatory) (+LEDY)\n"
+		(exclude_from_sim no)
+		(at 86.36 29.21 0)
+		(size 59.69 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c4b11df8-8fad-459e-8716-949b89db6f1b")
+	)
+	(sheet
+		(at 22.86 43.18)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e39c7ca-7a19-4073-b417-9ed9c1d61817")
+		(property "Sheetname" "Konwerter UART->RS485"
+			(at 22.86 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uart-rs485.kicad_sch"
+			(at 22.86 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Projekt elektroniki"
+				(path "/fba27fc7-bf2f-43f3-b631-7f15fcce342e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 34.29)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28491c69-e13d-4e08-803f-8b2a35886090")
+		(property "Sheetname" "Komparatory"
+			(at 22.86 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "komparatory.kicad_sch"
+			(at 22.86 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Projekt elektroniki"
+				(path "/fba27fc7-bf2f-43f3-b631-7f15fcce342e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 53.34)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "904b2fbb-571e-4d04-8062-6784a5c34841")
+		(property "Sheetname" "Złącza"
+			(at 22.86 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "zlacza.kicad_sch"
+			(at 22.86 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Projekt elektroniki"
+				(path "/fba27fc7-bf2f-43f3-b631-7f15fcce342e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 24.13)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c937ca80-3213-4bc1-b0ed-3b97d3afe9ce")
+		(property "Sheetname" "Zasilanie"
+			(at 22.86 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "zasilanie.kicad_sch"
+			(at 22.86 28.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Projekt elektroniki"
+				(path "/fba27fc7-bf2f-43f3-b631-7f15fcce342e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

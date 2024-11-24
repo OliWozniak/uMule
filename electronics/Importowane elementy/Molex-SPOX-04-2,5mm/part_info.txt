@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=22-03-5045
+PartCategory=Connector
+PackageCategory=Header, Shrouded - Straight PTH Box
+PinCount=4
+Version=1.1
+Released=2021-02-22 10:58:05
+Downloaded=2024-10-09 18:05:40
+3D=Y

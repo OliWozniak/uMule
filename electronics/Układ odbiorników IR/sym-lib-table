@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2024-10-02_17-14-12")(type "KiCad")(uri "C:/Users/owozn/Documents/Semestr 7/Inżynierka/Projekt elektroniki/Importowane elementy/TSOP4838/2024-10-02_17-14-12.kicad_sym")(options "")(descr ""))
+  (lib (name "TSOP4838")(type "KiCad")(uri "C:/Users/owozn/Documents/Semestr 7/Inżynierka/Projekt elektroniki/Importowane elementy/TSOP4838/TSOP4838/TSOP4838.kicad_sym")(options "")(descr ""))
+  (lib (name "Importowane elementy")(type "KiCad")(uri "${KIPRJMOD}/Importowane elementy.kicad_sym")(options "")(descr ""))
+)

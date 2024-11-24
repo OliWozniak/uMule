@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=MAX485CSA+T
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2019-11-02 13:19:42
+Downloaded=2024-09-24 18:14:35
+3D=Y
