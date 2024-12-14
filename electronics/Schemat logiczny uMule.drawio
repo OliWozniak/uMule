@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0" version="25.0.3">
+  <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
+    <mxGraphModel dx="880" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;Process 1&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;System Study&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Preparation&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" parent="1" vertex="1">
+          <mxGeometry x="236" y="236" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Engineering" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC" parent="1" vertex="1">
+          <mxGeometry x="246" y="126" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Investors" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC" parent="1" vertex="1">
+          <mxGeometry x="40" y="251" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2" parent="1" source="3" target="2" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="20" y="250" as="sourcePoint" />
+            <mxPoint x="120" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2" parent="1" source="4" target="2" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="280" y="190" as="sourcePoint" />
+            <mxPoint x="380" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52" value="Desired &#xa;functionality" style="text;spacingTop=-5;align=center" parent="1" vertex="1">
+          <mxGeometry x="165" y="251" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="53" value="Desired &#xa;functionality" style="text;spacingTop=-5;align=center" parent="1" vertex="1">
+          <mxGeometry x="241" y="196" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XyD02n7cpYPsTPNAEtWp-96" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Główna płytka&lt;/strong&gt;&lt;br&gt;&lt;/div&gt;&lt;hr&gt;&lt;div&gt;Dystrybucja&amp;nbsp;&lt;/div&gt;&lt;div&gt;sygnałów&lt;/div&gt;&lt;div&gt;i zasilania&lt;br&gt;&lt;/div&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" vertex="1" parent="1">
+          <mxGeometry x="440" y="370" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XyD02n7cpYPsTPNAEtWp-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XyD02n7cpYPsTPNAEtWp-99" target="XyD02n7cpYPsTPNAEtWp-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XyD02n7cpYPsTPNAEtWp-99" value="Akumulator" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC" vertex="1" parent="1">
+          <mxGeometry x="246" y="385" width="90" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
